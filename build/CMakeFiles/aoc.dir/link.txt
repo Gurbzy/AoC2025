@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/aoc.dir/src/main.cpp.o CMakeFiles/aoc.dir/src/days/day1.cpp.o CMakeFiles/aoc.dir/src/days/day2.cpp.o -o aoc 

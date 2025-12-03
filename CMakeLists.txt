@@ -8,6 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(AOC_SOURCES
     src/main.cpp
     src/days/day1.cpp
+    src/days/day2.cpp
 )
 
 add_executable(aoc ${AOC_SOURCES})

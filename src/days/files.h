@@ -6,7 +6,7 @@
 #include <fstream>
 #include <iostream>
 
-std::vector<std::string> read_file(const char *filename) {
+inline std::vector<std::string> read_file(const char *filename) {
 	std::ifstream infile(filename);
 
 	if (!infile) {
