@@ -1,6 +1,7 @@
 #include "days/day1.h"
 #include "days/day2.h"
 #include "days/day3.h"
+#include "days/day4.h"
 
 int main() {
     solution_1_1("../inputs/day1.txt");
@@ -9,4 +10,6 @@ int main() {
     solution_2_2("../inputs/day2.txt");
     solution_3_1("../inputs/day3.txt");
     solution_3_2("../inputs/day3.txt");
+    solution_4_1("../inputs/day4.txt");
+    solution_4_2("../inputs/day4.txt");
 }
