@@ -64,7 +64,7 @@ void solution_4_1(const char *filename) {
 	   }
     }
 
-    std::cout << "\n\nforkliftable papers are " << forkliftable << "\n"; 
+    std::cout << "forkliftable papers are " << forkliftable << "\n"; 
 }
 
 static void remove_forks(std::vector<std::vector<char>> &grid, std::vector<std::pair<int, int>> &indices) {
@@ -106,5 +106,5 @@ void solution_4_2(const char *filename) {
 	   forkliftable += count_forks(grid, indices);
     }
 
-    std::cout << "\n\nforkliftable papers are " << forkliftable << "\n"; 
+    std::cout << "forkliftable papers are " << forkliftable << "\n"; 
 }

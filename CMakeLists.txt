@@ -11,6 +11,7 @@ set(AOC_SOURCES
     src/days/day2.cpp
     src/days/day3.cpp
     src/days/day4.cpp
+    src/days/day5.cpp
 )
 
 add_executable(aoc ${AOC_SOURCES})
